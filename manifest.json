@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "MSRIT Attendance Auto-Login",
+  "version": "6.7",
+  "description": "Automatically fills USN and DOB for the MSRIT portal - Made By Dushyanth Gowda",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://parents.msrit.edu/newparents/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,7 +1,8 @@
-const myUSN = '1MS24IS058'; 
-const myDay = '02 ';    // Keep the space!
-const myMonth = '11';  
-const myYear = '2006';
+// Change the Values -
+const myUSN = '1MS2XXX000'; 
+const myDay = 'DD ';    // Keep the space!
+const myMonth = 'MM';  
+const myYear = 'YYYY';
 
 function simulateInput(element, value) {
     element.value = value;
@@ -32,5 +33,6 @@ function handlePageLogic() {
         }
     });
 }
+
 
 const mainInterval = setInterval(handlePageLogic, 500);
